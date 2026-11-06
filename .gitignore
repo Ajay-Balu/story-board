@@ -1,0 +1,32 @@
+# Gradle and build output
+.gradle/
+build/
+.kotlin/
+captures/
+*.apk
+*.aab
+*.ap_
+
+# Local configuration (SDK path, signing keys)
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Personal working folders (debug scripts, phone backups, scratch)
+_debug/
+_to_delete/
+_phone_backup*/
+_incoming_*.zip
+
+# App data that must never be published
+*.db
+*.db-wal
+*.db-shm
+*.storyboard
